@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css"
+        integrity="sha512-d0olNN35C6VLiulAobxYHZiXJmq+vl+BGIgAxQtD5+kqudro/xNMvv2yIHAciGHpExsIbKX3iLg+0B6d0k4+ZA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- read more content modal starts-->
+    <input type="checkbox" id="show-read-more" hidden>
+    <div class="read-more-wrapper">
+        <div class="read-more-content">
+            <label for="show-read-more" class="x-btn">&#10005;</label>
+            <h1 class="read-more-why-us-title">why us</h1>
+
+            <p class="read-more-why-us-paragraph">
+                <img src="../assets/whyus.png" class="why-us-img" alt="">Video provides a powerful way to help you prove
+                your point. When you click Online Video, you can paste in the embed code for the video you want to add.
+                You can also type a keyword to search online for the video that best fits your document.
+                To make your document look professionally produced, Word provides header, footer, cover page, and text
+                box designs that complement each other. For example, you can add a matching cover page, header, and
+                sidebar. Click Insert and then choose the elements you want from the different galleries.
+                Themes and styles also help keep your document coordinated. When you click Design and choose a new
+                Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply
+                styles, your headings change to match the new theme.
+                Save time in Word with new buttons that show up where you need them. To change the way a picture fits in
+                your document, click it and a button for layout options appears next to it. When you work on a table,
+                click where you want to add a row or a column, and then click the plus sign.
+                Reading is easier, too, in the new Reading view. You can collapse parts of the document and focus on the
+                text you want. If you need to stop reading before you reach the end, Word remembers where you left off -
+                even on another device.
+
+            </p>
+        </div>
+    </div>
+    <!-- read more content modal ends -->
+
+    <div class="container">
+        <div class="banner">
+            <!-- navbar starts -->
+            <nav class="nav-wrapper">
+                <!-- <div class="left-nav-bg"></div> -->
+                <nav class="navbar">
+                    <div class="navbar-logo">
+                        <img src="../assets/car-logo.png" style="width: 7rem; height: 7rem;" alt="">
+                    </div>
+                    <ul class="nav-list">
+                        <li class="nav-list-item">
+                            <a href="" class="nav-list-link">Home</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a href="" class="nav-list-link">About us</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a href="" class="nav-list-link">Car Type</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a href="" class="nav-list-link">Contact</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a href="" class="nav-list-link">Sign up</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a href="" class="nav-list-link">Signin</a>
+                        </li>
+                    </ul>
+                    <div class="navbar-search-form-wrapper">
+                        <form action="" class="navbar-search-form">
+                            <input placeholder="Search" type="text">
+                            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                </nav>
+
+                <!-- <div class="right-nav-bg"></div> -->
+            </nav>
+            <!-- navbar ends -->
+            <!-- banner headline starts -->
+            <div class="banner-content-wrapper">
+                <h3 class="banner-heading">
+                    <span class="banner-heading-ride-now">Ride Now</span>
+                    <span class="banner-heading-pay-later">Pay Later</span>
+                </h3>
+                <!-- banner headline ends -->
+                <!-- car rental form starts -->
+                <div class="rent-a-car-wrapper">
+                    <h4 class="rent-a-car-now-title">Book A Car Now</h4>
+                    <form action="" class="form-wrapper">
+                        <label for="">Select cab type</label>
+                        <select name="" id="">
+                            <option value="mini">Mini</option>
+                            <option value="sedan">Sedan</option>
+                            <option value="Suv">Suv</option>
+                            <option value="Xuv">Xuv</option>
+                        </select>
+                        <label for="">Pick up daddress</label>
+                        <input type="text" name="pick-up-address" placeholder="Pick-up-address">
+                        <label for="">Drop daddress</label>
+                        <input type="text" name="drop-address" placeholder="Drop-address">
+                        <button type="submit" class="banner-form-submit-btn">Submit</button>
+                    </form>
+                </div>
+                <!-- car rental form ends -->
+            </div>
+
+        </div>
+        <!-- why us starts -->
+        <div class="why-us-wrapper">
+            <div class="why-us-content">
+                <h3 class="why-us-title">why us</h3>
+                <p class="why-us-paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam tempora
+                    nihil culpa aliquam nesciunt minus recusandae reiciendis quis ad natus voluptatum, enim esse,
+                    officiis ipsa cupiditate similique ratione debitis pariatur! Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Ipsum odio sunt voluptatibus quaerat, necessitatibus illum. Magni pariatur,
+                    repudiandae atque, modi voluptatem optio error accusamus quae, dolore rerum dolor unde voluptatum
+                    ... </p>
+                <button class="why-us-read-more-btn"><label for="show-read-more">Read more <span
+                            class="read-more-right-arrow">>></span> </label></button>
+
+            </div>
+        </div>
+        <!-- why us ends -->
+        <!-- cities starts -->
+        <section class="cities-wrapper">
+            <div class="cities-header">
+                <h1 class="cities-header-title">Cities We Cover</h1>
+                <div class="cities-header-underline">
+                    <span class="cities-small-underline"></span>
+                    <span class="cities-large-underline"></span>
+                </div>
+            </div>
+            <div class="cities-left-right-container">
+                <div class="cities-left-container">
+                    <!-- <span class="slider-card-left-arrow"><i class="fa-solid fa-arrow-left"></i></span> -->
+
+                    <div class="cities-slider-card-wrapper">
+                        <div class="cities-slider-card card1">
+                            <img src="../assets/img1-delhi.jpg" class="cities-slider-card-img" alt="">
+                            <h1>Delhi</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptate placeat ipsum
+                                deleniti perspiciatis voluptatem asperiores</p>
+                            <button type="button" class="cities-slider-card-btn">Book</button>
+                        </div>
+                        <div class="cities-slider-card card2">
+                            <img src="../assets/img2-mumbai.jpg" class="cities-slider-card-img" alt="">
+                            <h1>Mumbai</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptate placeat ipsum
+                                deleniti perspiciatis voluptatem asperiores</p>
+                            <button type="button" class="cities-slider-card-btn">Book</button>
+                        </div>
+                        <div class="cities-slider-card card3">
+                            <img src="../assets/img3-bengaluru.jpg" class="cities-slider-card-img" alt="">
+                            <h1>Bengaluru</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptate placeat ipsum
+                                deleniti perspiciatis voluptatem asperiores</p>
+                            <button type="button" class="cities-slider-card-btn">Book</button>
+                        </div>
+                        <div class="cities-slider-card card3">
+                            <img src="../assets/img4-pune.jpg" class="cities-slider-card-img" alt="">
+                            <h1>Pune</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptate placeat ipsum
+                                deleniti perspiciatis voluptatem asperiores</p>
+                            <button type="button" class="cities-slider-card-btn">Book</button>
+                        </div>
+                    </div>
+                    <!-- <span class="slider-card-right-arrow"><i class="fa-solid fa-arrow-right"></i></span> -->
+
+                </div>
+                <div class="cities-right-container">
+                    <div class="cities-right-img-wrapper">
+                        <img class="img1" src="../assets/img1-delhi.jpg" alt="">
+                        <img class="img2" src="../assets/img2-mumbai.jpg" alt="">
+                        <img class="img3" src="../assets/img3-bengaluru.jpg" alt="">
+                        <img class="img4" src="../assets/img4-pune.jpg" alt="">
+                    </div>
+                </div>
+                <div class="cities-description">
+                    <div class="cities-description-wrapper">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod ducimus accusamus laboriosam ex
+                        beatae placeat explicabo corporis, fuga similique saepe quae voluptatibus repudiandae labore cum
+                        excepturi iure quam sunt. Dolor?
+                        Ut fugiat doloremque tenetur optio quam quis qui iusto facere unde laudantium error aspernatur
+                        labore cumque blanditiis, neque aut totam nesciunt facilis quia! Assumenda nobis repellendus
+                        explicabo mollitia, enim quasi!
+                        Tenetur repudiandae accusamus ipsum eligendi commodi sed molestias ex obcaecati id labore, in,
+                        velit assumenda tempore
+                        Odit, id ducimus! Cumque possimus ea vel atque ipsam eligendi rem accusantium corporis quia
+                        nobis odit dicta nesciunt, dolorem optio magni. Repellat est error repudiandae, iste voluptatem
+                        suscipit natus consequatur.
+                        Corporis fugiat cumque nesciunt minus explicabo quae possimus officia illo fuga, laudantium qui
+                        adipisci dignissimos voluptas repellat ad placeat, amet quas quod. Laborum aperiam hic vel
+                        labore dolorem minima voluptas.
+                        Eius, perspiciatis necessitatibus! Soluta, cum dicta. Sit nihil blanditiis suscipit maiores.
+                        Temporibus excepturi quae dolorem non ea quisquam quia odit, perspiciatis laborum
+                        exercitationem! Quam nihil unde, veniam ipsam necessitatibus deleniti!
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- cities ends-->
+        <!-- car type starts -->
+        <footer class="footer-wrapper">
+            <div class="footer-upper-content">
+                <h1 class="car-rental-heading">Car rental</h1>
+                <div class="footer-address">
+                    <span class="house-no">rz-b-99</span>
+                    <span class="street-no">street no-23</span>
+                    <span class="locality">uttam nagar</span>
+                    <span class="state">New Delhi</span>
+                    <span class="country">India</span>
+                </div>
+                <div class="footer-contact-us">
+                    <span class="phone-no">91+ 8877665533</span>
+                    <span class="email">contact@gmail.com</span>
+                </div>
+            </div>
+            <div class="footer-lower-copyrights">
+                <div class="horizontal-line"></div>
+                <p>@copy Car Rental All rights are reserved</p>
+            </div>
+        </footer>
+        <!-- car type ends -->
+    </div>
+</body>
+
+</html>
